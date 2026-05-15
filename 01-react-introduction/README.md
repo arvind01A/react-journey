@@ -187,16 +187,16 @@ React Application Architecture
   │  │   ├── Navbar                     │   │
   │  │   ├── Main                       │   │
   │  │   │   ├── Sidebar                │   │
-  │  │   │   └── Content               │   │
+  │  │   │   └── Content                │   │
   │  │   │       ├── Card (×n)          │   │
-  │  │   └── Footer                    │   │
+  │  │   └── Footer                     │   │
   │  └──────────────────────────────────┘   │
   │                                         │
   │  State: Props flow ↓  Events flow ↑     │
   └─────────────────────────────────────────┘
             ↕ Virtual DOM
   ┌─────────────────────────────────────────┐
-  │            Real Browser DOM            │
+  │            Real Browser DOM             │
   └─────────────────────────────────────────┘
 
 Data flow: Unidirectional (top-down)
